@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <!-- don't forget to link the CSS and JS -->
+    <title>Custom Upload Button + Preview Image</title>
+</head>
+<body>
+    <div class="container">
+        <p>File Name: <span class="file_name">No files chosen, yet!</span></p>
+        <div class="preview">
+            <!-- as default the img won't have a src here. But I added it so we can see what we're styling -->
+            <img src="" alt="">
+        </div>
+        <input type="file" id="uploadBtn">
+        <label for="uploadBtn">Upload File</label>
+    </div>
+</body>
+</html>
+<!-- now it's JS time -->
